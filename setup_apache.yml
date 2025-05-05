@@ -7,8 +7,9 @@
         name: httpd
         state: present
 
-    - name: start apache
+    - name: start apache (httpd)
       ansible.builtin.service:
         name: httpd
-      statte: started
-      enebled: yes
+        state: started
+        enabled: yes
+        # test
