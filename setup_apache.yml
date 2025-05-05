@@ -17,5 +17,4 @@
       ansible.builtin.yum:
         name: vim
         state: present
-
-######これはテストです。
+######これはテストです。実施日:20250505
