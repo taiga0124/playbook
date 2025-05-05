@@ -10,6 +10,6 @@
     - name: start apache
       ansible.builtin.service:
         name: httpd
-      status: startted
-      enebled: ture
+      status: started
+      enebled: yes
 # test
