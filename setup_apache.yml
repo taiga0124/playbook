@@ -6,3 +6,10 @@
       ansible.builtin.yum:
         name: httpd
         state: present
+
+    - name: start apache
+      ansible.builtin.service:
+        name: httpd  
+      status: startted
+      enebled: ture
+
