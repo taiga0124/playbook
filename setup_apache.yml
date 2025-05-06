@@ -1,5 +1,5 @@
 - name: Install and start Apache on all servers
-  hosts: all
+  hosts: public
   become: yes
   tasks:
     - name: Install Apache (httpd)
