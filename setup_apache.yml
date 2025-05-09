@@ -1,0 +1,8 @@
+- name: Install and start Apache on all servers
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install Apache (httpd)
+      ansible.builtin.yum:
+        name: httpd
+        state: present
