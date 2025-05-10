@@ -2,7 +2,7 @@
   hosts: all
   become: yes
   tasks:
-    - name: Install Apache (httpd)
+    - name: Install Apache (nginx)
       ansible.builtin.yum:
-        name: httpd
+        name: nginx
         state: present
